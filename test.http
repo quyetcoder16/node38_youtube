@@ -1,0 +1,20 @@
+
+### get video
+GET http://localhost:8081/video/get-video HTTP/1.1
+
+###
+
+POST http://localhost:8081/video/create-video HTTP/1.1
+Content-Type: application/json
+
+{
+    "video_name":"ronando",
+    "thumbnail":"ronado.jpg",
+    "description":"ronado",
+    "user_id":1,
+    "type_id":1
+}
+
+#####
+
+DELETE  http://localhost:8081/video/delete-video/3 HTTP/1.1
